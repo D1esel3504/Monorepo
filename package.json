@@ -1,0 +1,26 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "lerna run --parallel start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D1esel3504/Monorepo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D1esel3504/Monorepo/issues"
+  },
+  "homepage": "https://github.com/D1esel3504/Monorepo#readme",
+  "devDependencies": {
+    "lerna": "^5.4.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
